@@ -1,3 +1,3 @@
 # Gesture_Recognition
-### Dependencies install:
-`pip install mediapipe opencv-python`
+### Dependencies
+1. `pip install mediapipe opencv-python`
