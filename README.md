@@ -33,6 +33,8 @@
 ## Codes:
 ### keypointDemo.py
 * Check whether the joint point really can detect or not.
-![](./readme_img/keydemo)
+![](./readme_img/keydemo.jpg)
+
+
 
 
