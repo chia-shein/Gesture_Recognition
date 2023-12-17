@@ -1,4 +1,4 @@
-# Gesture_Recognition
+![image](https://github.com/chia-shein/Gesture_Recognition/assets/60592114/822e154b-70b4-450d-8cef-1a55c4717b1b)# Gesture_Recognition
 * This code mainly wants to train a Skeleton-based recognition model and apply it on Raspberry Pi.
 * I chose simple gesture recognition as an example.
 
@@ -34,6 +34,25 @@
 ### keypointDemo.py
 * Check whether the joint point really can detect or not.
 ![](./readme_img/keydemo.jpg)
+```shell
+  python keypointDemo.py
+```
+### keypoint_label.py
+* Collect gesture joint point database.
+```shell
+  python keypoint_label.py
+```
+### gesture.ipynb
+* Trained the gesture recognition model on Google Colab.
+
+### gesture_recognition.py
+* Real-time gesture recognition
+```shell
+  python gesture_recognition.py
+```
+![](./readme_img/result.png)
+
+
 
 
 
