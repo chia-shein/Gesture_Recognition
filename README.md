@@ -20,7 +20,19 @@
   pip install matplotlib
 ```
 ## Making libraries code
-1. draw_keypoints.py:　Related settings for joint point drawing．
-2. get_keypoints.py: Extract the joint points of the left and right hands and bring them together.
-3. mediapipe_tool.py: Image joint point prediction.
+1. draw_keypoints.py:
+    * Related settings for joint point drawing.
+    * Connect the joint points and draw them on the image so that the joint points can be displayed in real-time.
+3. get_keypoints.py:
+    * Extract the joint points of the left and right hands and bring them together.
+    * The hand joint points will return x, y, and z coordinates, and a hand will have 21 joint points.
+    * Therefore, to ensure that the length of the input to the neural network is fixed, the joint points of the left and right hands will be concatenated. If no hand image is detected in the image, zero-filling will be performed.
+5. mediapipe_tool.py:
+    * Image joint point prediction.
+   
+## Codes:
+### keypointDemo.py
+* Check whether the joint point really can detect or not.
+![](./readme_img/keydemo)
+
 
