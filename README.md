@@ -4,7 +4,7 @@
 
 ## MediaPipe
 * An open-source framework developed by Google Research and proposed in June 2019 for building multimedia machine-learning applications.
-
+![](./readme_img/mediapipe.png)
 ## Environment
 ```shell
   conda create –n gesture python=3.8.11
@@ -19,3 +19,8 @@
   pip install sklearn
   pip install matplotlib
 ```
+## Making libraries code
+1. draw_keypoints.py:　Related settings for joint point drawing．
+2. get_keypoints.py: Extract the joint points of the left and right hands and bring them together.
+3. mediapipe_tool.py: Image joint point prediction.
+
