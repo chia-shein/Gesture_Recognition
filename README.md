@@ -1,4 +1,4 @@
-![image](https://github.com/chia-shein/Gesture_Recognition/assets/60592114/822e154b-70b4-450d-8cef-1a55c4717b1b)# Gesture_Recognition
+# Gesture_Recognition
 * This code mainly wants to train a Skeleton-based recognition model and apply it on Raspberry Pi.
 * I chose simple gesture recognition as an example.
 
